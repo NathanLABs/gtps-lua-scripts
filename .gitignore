@@ -1,0 +1,35 @@
+# Server data and SQLite sidecars
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+
+# Local configuration and dependencies
+.env
+.env.*
+!.env.example
+node_modules/
+.codex/
+.agents/
+.aws/
+.ssh/
+*.pem
+*.key
+*.p12
+*.pfx
+backups/
+exports/
+
+# Runtime output and temporary files
+*.log
+luac.out
+*.tmp
+*.bak
+Thumbs.db
+desktop.ini
